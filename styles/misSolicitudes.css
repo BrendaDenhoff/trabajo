@@ -1,0 +1,63 @@
+:root {
+    --color--primary: #57A42D;
+    --color--secundary: #00A2C8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+nav {
+    background-color: var(--color--primary);
+    width: 100vw;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav > i {
+    font-size: 35px;
+    margin: 10px;
+}
+
+footer {
+    background-color: var(--color--primary);
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.datos > p {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.redes > i {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.solicitudes {
+    height: calc(100vh - 100px - 55px - 18px);
+    padding: 80px;
+}
+
+button {
+    background-color: var(--color--secundary);
+    border-style: none;
+    height: 50px;
+    width: 160px;
+    border-radius: 20px;
+    margin: 20px 20px 0 0;
+}
+
+.volver {
+    position: relative;
+    left: calc(100vw - 90px);
+    text-decoration: none;
+    
+}

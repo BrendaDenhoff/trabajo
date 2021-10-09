@@ -1,0 +1,53 @@
+:root {
+    --color--primary: #57A42D;
+    --color--secundary: #00A2C8;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+.datos {
+    border-radius: 15px;
+    width: 300px;
+    background-color: var(--color--primary);
+    height: 170px;
+}
+
+.datos {
+    padding: .5px 10px;
+}
+
+.datos__item {
+    width: 95%;
+    height: 20px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.button {
+    background-color: var(--color--secundary);
+    border-style: none;
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 20px;
+    height: 30px;
+
+}
+
+.imagen {
+    margin-bottom: 200px;
+}
+
+
+
+
+
