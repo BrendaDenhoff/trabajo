@@ -35,7 +35,6 @@ nav > i {
 .opciones {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
     background-color: white;
     height: calc(100vh - 55px - 100px - 500px);
 }
@@ -76,3 +75,14 @@ footer {
     margin: 10px;
 }
 
+
+@media (max-height: 850px) {
+    .opciones {
+        flex-wrap: nowrap;
+    }
+    .opciones__item {
+        margin-top: 30px;
+    }
+    
+   
+}
