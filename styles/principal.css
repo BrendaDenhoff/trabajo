@@ -86,3 +86,15 @@ footer {
     
    
 }
+
+
+@media (max-height: 650px) {
+    .opciones {
+        height: 150px;
+    }
+    .opciones__item {
+        margin-top: 30px;
+    }
+    
+   
+}
